@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "634414657437",
+    "project_id": "healthy-diet-507c3",
+    "storage_bucket": "healthy-diet-507c3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:634414657437:android:132dbb76fbf754987f8974",
+        "android_client_info": {
+          "package_name": "com.app.healthy_diet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "634414657437-6rp203ftl9796ga3udlqqiitutfs33bg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAI3b8CJr1lMDAPkwGkYecJ92bJ8aGYEoI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "634414657437-6rp203ftl9796ga3udlqqiitutfs33bg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

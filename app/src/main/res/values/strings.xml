@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Healthy-Diet</string>
+    <string name="log_in">Log In</string>
+    <string name="welcome_to_healthy_diet">Welcome to Healthy Diet</string>
+    <string name="hippocratesquote">\"Let food be thy medicine and medicine be thy food\"-Hippocrates</string>
+    <string name="healthy_apple">healthy_apple</string>
+    <string name="foodlist">foodlist</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="sign_up">Sign up!</string>
+    <string name="healthy_diet">HEALTHY DIET</string>
+    <string name="login_msg">Log into existing account!</string>
+    <string name="email_msg">Enter your email</string>
+    <string name="login_btn">Button</string>
+    <string name="password_msg">Enter your password</string>
+    <string name="fname">Enter your firstname</string>
+    <string name="lname">Enter your lastname</string>
+    <string name="email_message">Enter your email</string>
+    <string name="password_message">Enter your password</string>
+    <string name="signup_page">Sign up</string>
+    <string name="welcome_txt">Welcome</string>
+    <string name="logout_icon">logout</string>
+    <string name="quote">“A recipe has no soul. You as the cook must bring soul to the recipe.” – Thomas Keller</string>
+    <string name="click_here">CLICK HERE</string>
+    <string name="my_recipe">My recipe</string>
+    <string name="log_in_page">LOG IN</string>
+    <string name="enter_your_firstname">Enter your firstname</string>
+    <string name="enter_your_lastname">Enter your lastname</string>
+    <string name="sign_up_page">SIGN UP</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="log_in_signuppage">Log in</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="firstname">Firstname</string>
+    <string name="lastname">Lastname</string>
+    <string name="email_signup">Email</string>
+    <string name="password_signup">Password</string>
+
+
+</resources>
+
+
+

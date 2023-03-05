@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/header"
+        android:layout_width="409dp"
+        android:layout_height="93dp"
+        android:fontFamily="@font/covered_by_your_grace"
+        android:gravity="center"
+        android:text="@string/healthy_diet"
+        android:textColor="#6C63FF"
+        android:textColorLink="#6C63FF"
+        android:textSize="48sp"
+        />
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:hint="@string/firstname"
+        android:textColor="#6C63FF"
+        android:textColorHint="#6C63FF"
+        android:textSize="6sp">
+
+        <EditText
+            android:id="@+id/signup_firstname"
+            android:layout_width="315dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="1dp"
+            android:autofillHints="adminadmin@gmail.com"
+            android:inputType="textEmailAddress"
+            android:textSize="11sp"
+            tools:ignore="TextContrastCheck,SpeakableTextPresentCheck" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:hint="@string/lastname"
+        android:textColor="#6C63FF"
+        android:textColorHint="#6C63FF"
+        android:textSize="6sp">
+
+        <EditText
+            android:id="@+id/signup_lastname"
+            android:layout_width="315dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="1dp"
+            android:autofillHints="adminadmin@gmail.com"
+            android:inputType="textEmailAddress"
+            android:textSize="11sp"
+            tools:ignore="TextContrastCheck,SpeakableTextPresentCheck" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:hint="@string/email_signup"
+        android:textColor="#6C63FF"
+        android:textColorHint="#6C63FF"
+        android:textSize="6sp">
+
+        <EditText
+            android:id="@+id/signup_email"
+            android:layout_width="315dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="1dp"
+            android:autofillHints="adminadmin@gmail.com"
+            android:inputType="textEmailAddress"
+
+
+            android:textSize="11sp"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:hint="@string/password_signup"
+        android:textColor="#6C63FF"
+        android:textColorHint="#6C63FF"
+        android:textSize="6sp">
+
+        <EditText
+            android:id="@+id/signup_password"
+            android:layout_width="315dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="1dp"
+            android:autofillHints="adminadmin@gmail.com"
+            android:inputType="textPassword"
+
+            android:textSize="11sp"
+            tools:ignore="TextContrastCheck,SpeakableTextPresentCheck" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/signup_btn"
+        android:layout_width="186dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="100dp"
+        android:text="@string/sign_up_page"
+        android:backgroundTint="#000000"
+        android:drawableEnd="@drawable/icon_login"
+        android:fontFamily="@font/arbutus"
+        android:textColor="#6C63FF"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/questionTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="48dp"
+            android:layout_marginTop="64dp"
+            android:text="@string/already_have_an_account"
+            android:textColor="@color/black"
+            tools:ignore="TextContrastCheck" />
+
+        <TextView
+            android:id="@+id/logInTxt"
+            android:layout_width="70dp"
+            android:layout_height="21dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="64dp"
+            android:clickable="true"
+            android:focusableInTouchMode="true"
+            android:linksClickable="true"
+            android:minHeight="48dp"
+            android:text="@string/log_in_signuppage"
+            android:textColor="#6C63FF"
+            android:textStyle="italic"
+            tools:ignore="TextContrastCheck,TouchTargetSizeCheck"
+            android:focusable="true" />
+    </LinearLayout>
+
+
+
+</LinearLayout>
