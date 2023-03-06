@@ -30,6 +30,7 @@
         </activity>
         <activity android:name=".itemsActivity"></activity>
         <activity android:name=".MyrecipeActivity"></activity>
+        <activity android:name=".settingsactivity"></activity>
 
 
         <meta-data

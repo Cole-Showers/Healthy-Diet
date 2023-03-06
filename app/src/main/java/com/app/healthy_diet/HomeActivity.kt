@@ -24,7 +24,8 @@ class HomeActivity : AppCompatActivity() {
         val settings= arrayOf("About","Logout")
         val settingsIcon= findViewById<ImageView>(R.id.icon_settings)
         settingsIcon.setOnClickListener {
-
+            val intent= Intent(this, settingsactivity::class.java)
+            startActivity(intent)
         }
 
 

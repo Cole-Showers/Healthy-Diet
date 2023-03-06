@@ -34,6 +34,8 @@
     <string name="lastname">Lastname</string>
     <string name="email_signup">Email</string>
     <string name="password_signup">Password</string>
+    <string name="about">About</string>
+    <string name="logout">Logout</string>
 
 
 </resources>
