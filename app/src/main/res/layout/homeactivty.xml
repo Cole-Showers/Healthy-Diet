@@ -5,27 +5,30 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:background="@color/white"
-        tools:ignore="MissingConstraints">
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="142dp"
+        tools:layout_editor_absoluteY="2dp">
 
         <ImageView
-            android:id="@+id/icon_logout"
+            android:id="@+id/icon_settings"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:clickable="true"
             android:contentDescription="@string/logout_icon"
             android:minWidth="48dp"
             android:minHeight="48dp"
-            android:src="@drawable/icon_logout"
+            android:src="@drawable/icon_settings"
             tools:layout_editor_absoluteX="16dp"
             tools:layout_editor_absoluteY="13dp" />
 
-    </androidx.appcompat.widget.Toolbar>
 
+    </androidx.appcompat.widget.Toolbar>
 
     <com.airbnb.lottie.LottieAnimationView
         android:id="@+id/ltAnimation"
@@ -48,10 +51,10 @@
         android:layout_height="72dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.36"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.079"
+        app:layout_constraintVertical_bias="0.122"
         app:lottie_autoPlay="true"
         app:lottie_loop="false"
         app:lottie_rawRes="@raw/lottiewelcome"

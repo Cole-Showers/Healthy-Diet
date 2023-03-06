@@ -5,11 +5,13 @@
       <map>
         <entry key="..\:/Users/COLE-SHOWERS/AndroidStudioProjects/HealthyDiet2/app/src/main/res/drawable/icon_login.xml" value="0.2425" />
         <entry key="..\:/Users/COLE-SHOWERS/AndroidStudioProjects/HealthyDiet2/app/src/main/res/drawable/icon_logout.xml" value="0.1855" />
+        <entry key="..\:/Users/COLE-SHOWERS/AndroidStudioProjects/HealthyDiet2/app/src/main/res/drawable/icon_settings.xml" value="0.1385" />
         <entry key="..\:/Users/COLE-SHOWERS/AndroidStudioProjects/HealthyDiet2/app/src/main/res/layout/activity_main.xml" value="0.136" />
         <entry key="..\:/Users/COLE-SHOWERS/AndroidStudioProjects/HealthyDiet2/app/src/main/res/layout/homeactivty.xml" value="0.144" />
         <entry key="..\:/Users/COLE-SHOWERS/AndroidStudioProjects/HealthyDiet2/app/src/main/res/layout/itemsactivity.xml" value="0.152" />
         <entry key="..\:/Users/COLE-SHOWERS/AndroidStudioProjects/HealthyDiet2/app/src/main/res/layout/login.xml" value="0.2" />
         <entry key="..\:/Users/COLE-SHOWERS/AndroidStudioProjects/HealthyDiet2/app/src/main/res/layout/myrecipe.xml" value="0.2734375" />
+        <entry key="..\:/Users/COLE-SHOWERS/AndroidStudioProjects/HealthyDiet2/app/src/main/res/layout/settings.xml" value="0.27025641025641023" />
         <entry key="..\:/Users/COLE-SHOWERS/AndroidStudioProjects/HealthyDiet2/app/src/main/res/layout/signup.xml" value="0.264" />
         <entry key="..\:/Users/COLE-SHOWERS/AndroidStudioProjects/HealthyDiet2/app/src/main/res/layout/splash_activity.xml" value="0.2734375" />
       </map>
