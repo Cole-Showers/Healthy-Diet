@@ -30,6 +30,8 @@
 
     </androidx.appcompat.widget.Toolbar>
 
+
+
     <com.airbnb.lottie.LottieAnimationView
         android:id="@+id/ltAnimation"
         android:layout_width="408dp"
