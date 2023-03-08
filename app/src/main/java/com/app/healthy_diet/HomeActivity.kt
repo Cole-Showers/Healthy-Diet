@@ -1,6 +1,7 @@
 package com.app.healthy_diet
 import android.content.Intent
 import android.os.Bundle
+import android.provider.ContactsContract
 import android.view.View
 import android.widget.*
 import androidx.appcompat.app.AppCompatActivity
@@ -20,16 +21,45 @@ class HomeActivity : AppCompatActivity() {
             val intent= Intent(this,itemsActivity::class.java)
             startActivity(intent)
         }
-
+        //for a dropdown list for the settings icon
         val settings= arrayOf("About","Logout")
-        val settingsIcon= findViewById<ImageView>(R.id.icon_settings)
-        settingsIcon.setOnClickListener {
+        val icon: ImageView = findViewById(R.id.icon_settings)
+        icon.setOnClickListener {
+            val popupMenu= PopupMenu(this,icon)
+            val inflater= popupMenu.menuInflater
+            inflater.inflate(R.menu.dropdown_menu,popupMenu.menu)
+            popupMenu.setOnMenuItemClickListener { menuItem ->
+                when (menuItem.itemId) {
+                    R.id.item_1 -> {
+                        // Handle item 1 click
+                        true
+                    }
+                    R.id.item_2 -> {
+                        // Handle item 2 click
+                        true
+                    }
 
+                    else -> false
+                }
+            }
+            popupMenu.show()
+        }
         }
 
+ /*       val adapter = ArrayAdapter(this, android.R.layout.simple_spinner_dropdown_item, settings)
+        val spinner: Spinner = findViewById(R.id.spinner)
+        spinner.adapter = adapter
+        spinner.onItemSelectedListener = object : AdapterView.OnItemSelectedListener {
+            override fun onItemSelected(parent: AdapterView<*>?, view: View?, position: Int, id: Long) {
+                val selectedItem = parent?.getItemAtPosition(position).toString()
+                Toast.makeText(applicationContext, "You have clicked: $selectedItem", Toast.LENGTH_SHORT).show()
+            }
 
-
-
+            override fun onNothingSelected(parent: AdapterView<*>?) {
+                // Do nothing
+            }
+        }
+*/
 /*       fun makeTextViewDisappear(){
 //            welcome_txt.setVisibility(View.VISIBLE);
 //            new Handler().postDelayed(new Runnable() {
@@ -40,7 +70,6 @@ class HomeActivity : AppCompatActivity() {
 //                }
 //            }, 10000); //for 10 seconds
 //        }*/
-
         fun onClick(view: View?) {
 
             auth.signOut()
@@ -49,14 +78,12 @@ class HomeActivity : AppCompatActivity() {
             page.putExtra("myuser", "Eleazar")
             startActivity(page)
         }
-
-//        findViewById<ImageView>(R.id.icon_logout).setOnClickListener(View.OnClickListener {
+/*        findViewById<ImageView>(R.id.icon_logout).setOnClickListener(View.OnClickListener {
 //            auth.signOut()
 //            val page = Intent(this, LogIn::class.java)
 //            //to pass information from one activity to another activity use putExta()
 //            startActivity(page)
 //
 //
-//        })
-    }
-}
+*/      }
+
