@@ -29,7 +29,18 @@ class HomeActivity : AppCompatActivity() {
             val inflater= popupMenu.menuInflater
             inflater.inflate(R.menu.dropdown_menu,popupMenu.menu)
             popupMenu.setOnMenuItemClickListener { menuItem ->
-                when (menuItem.itemId) {
+                if (menuItem.itemId == R.id.item_1) {
+                    // navigate to page 1
+                    startActivity(Intent(this, About::class.java))
+                    true
+                } else if (menuItem.itemId == R.id.item_2) {
+                    // navigate to page 2
+                    startActivity(Intent(this, LogIn::class.java))
+                    true
+                } else {
+                    false
+                }
+/*               when (menuItem.itemId) {
                     R.id.item_1 -> {
                         // Handle item 1 click
                         true
@@ -41,8 +52,8 @@ class HomeActivity : AppCompatActivity() {
                     }
 
                     else -> false
-                }
-            }
+*/               }
+
             popupMenu.show()
         }
         }
@@ -58,14 +69,7 @@ class HomeActivity : AppCompatActivity() {
 //                }
 //            }, 10000); //for 10 seconds
 //        }*/
-        fun onClick(view: View?) {
 
-            auth.signOut()
-            val page = Intent(this, LogIn::class.java)
-            //to pass information from one activity to another activity use putExta()
-            page.putExtra("myuser", "Eleazar")
-            startActivity(page)
-        }
 
 }
 
