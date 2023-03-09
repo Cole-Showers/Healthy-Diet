@@ -37,6 +37,7 @@ class HomeActivity : AppCompatActivity() {
                     R.id.item_2 -> {
                         // Handle item 2 click
                         true
+
                     }
 
                     else -> false
@@ -46,20 +47,7 @@ class HomeActivity : AppCompatActivity() {
         }
         }
 
- /*       val adapter = ArrayAdapter(this, android.R.layout.simple_spinner_dropdown_item, settings)
-        val spinner: Spinner = findViewById(R.id.spinner)
-        spinner.adapter = adapter
-        spinner.onItemSelectedListener = object : AdapterView.OnItemSelectedListener {
-            override fun onItemSelected(parent: AdapterView<*>?, view: View?, position: Int, id: Long) {
-                val selectedItem = parent?.getItemAtPosition(position).toString()
-                Toast.makeText(applicationContext, "You have clicked: $selectedItem", Toast.LENGTH_SHORT).show()
-            }
 
-            override fun onNothingSelected(parent: AdapterView<*>?) {
-                // Do nothing
-            }
-        }
-*/
 /*       fun makeTextViewDisappear(){
 //            welcome_txt.setVisibility(View.VISIBLE);
 //            new Handler().postDelayed(new Runnable() {
@@ -78,12 +66,9 @@ class HomeActivity : AppCompatActivity() {
             page.putExtra("myuser", "Eleazar")
             startActivity(page)
         }
-/*        findViewById<ImageView>(R.id.icon_logout).setOnClickListener(View.OnClickListener {
-//            auth.signOut()
-//            val page = Intent(this, LogIn::class.java)
-//            //to pass information from one activity to another activity use putExta()
-//            startActivity(page)
-//
-//
-*/      }
+
+}
+
+
+
 
