@@ -28,6 +28,7 @@
             </intent-filter>
 
         </activity>
+        <activity android:name=".About"></activity>
         <activity android:name=".itemsActivity"></activity>
         <activity android:name=".MyrecipeActivity"></activity>
 
