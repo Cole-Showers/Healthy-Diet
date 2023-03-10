@@ -34,7 +34,8 @@
     <string name="lastname">Lastname</string>
     <string name="email_signup">Email</string>
     <string name="password_signup">Password</string>
-
+    <string name="about">About</string>
+    <string name="about_txt">Healthy-Diet is a mobile application made to help individuals of all age groups: to keep a fit body, to maintain a strict diet, to try out new ideas.</string>
 
 </resources>
 
